@@ -4,12 +4,13 @@ import {
 
 import RootLayout from "./layouts/RootLayout";
 import Home from "../pages/HomePage";
-
+import NotFound from "../pages/NotFound";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <RootLayout />,
+
 
     children: [
       {
@@ -20,6 +21,11 @@ const router = createBrowserRouter([
 
     ],
   },
+  {
+   path: "",
+    element: <NotFound />,
+  }
+
 ]);
 
 export default router;
