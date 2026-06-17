@@ -1,5 +1,6 @@
 import React from 'react'
-import Generator from '../components/generator/generator'
+import Generator from '../components/generator/Generator'
+
 
 const Generatordefault = () => {
   return (
