@@ -6,11 +6,15 @@ import Dashboard from "../pages/Dashboard";
 import Utilities from "../pages/Utilities";
 import Favorites from "../pages/Favorites";
 import Settings from "../pages/Settings";
-
 import NotFound from "../pages/NotFound";
 
 import DashboardLayout from "../components/layout/DashboardLayout";
+
 import PasswordPage from "../pages/PasswordPage";
+import GlassmorphismGenerator from "../pages/GlassmorphismGenerator";
+import Generator from "../pages/Generatordefault";
+import Generatordefault from "../pages/Generatordefault";
+import Clay from "../components/clay/Clay";
 
 const router = createBrowserRouter([
   {
@@ -30,16 +34,25 @@ const router = createBrowserRouter([
           {
             path: "utilities",
             element: <Utilities />,
-            children: [
-              {
-                path: "utilities/password",
-                element: <PasswordPage />,
-              },
-            ],
           },
+
           {
             path: "utilities/password",
             element: <PasswordPage />,
+          },
+           {
+            path: "utilities/generator",
+            element: <Generatordefault />,
+          },
+            {
+            path: "utilities/clay",
+            element: <Clay/>,
+          },
+
+
+          {
+            path: "utilities/glassmorphism",
+            element: <GlassmorphismGenerator />,
           },
 
           {

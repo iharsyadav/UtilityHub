@@ -7,36 +7,34 @@ import {
   Hash,
   Eye,
   Plus,
+  Layers,
 } from "lucide-react";
 
 export const utilities = [
   {
     id: 1,
-    title: "BMI Calculator",
-    description: "Calculate body mass index instantly.",
-    icon: Calculator,
-    path: "/utilities/bmi",
-    category: "health",
+    title: "Generator Playground",
+    description: "Create and preview custom design generators.",
+    icon: Layers,
+    path: "/utilities/generator",
+    category: "design",
   },
-
   {
     id: 2,
-    title: "Age Calculator",
-    description: "Calculate exact age in years, months and days.",
-    icon: Cake,
-    path: "/utilities/age",
-    category: "date",
+    title: "Shadow Playground",
+    description: "Create and preview custom design generators.",
+    icon: Layers,
+    path: "/utilities/clay",
+    category: "design",
   },
-
   {
     id: 3,
-    title: "Tip Calculator",
-    description: "Split bills and calculate tips easily.",
-    icon: Percent,
-    path: "/utilities/tip",
-    category: "finance",
+    title: "Glassmorphism Generator",
+    description: "Generate custom glassmorphism CSS.",
+    icon: Layers,
+    path: "/utilities/glassmorphism",
+    category: "design",
   },
-
   {
     id: 4,
     title: "Password Generator",
@@ -80,5 +78,31 @@ export const utilities = [
     icon: Plus,
     path: "/utilities/counter",
     category: "tools",
+  },
+
+  {
+    id: 9,
+    title: "Tip Calculator",
+    description: "Split bills and calculate tips easily.",
+    icon: Percent,
+    path: "/utilities/tip",
+    category: "finance",
+  },
+
+  {
+    id: 10,
+    title: "BMI Calculator",
+    description: "Calculate body mass index instantly.",
+    icon: Calculator,
+    path: "/utilities/bmi",
+    category: "health",
+  },
+  {
+    id: 11,
+    title: "Age Calculator",
+    description: "Calculate exact age in years, months and days.",
+    icon: Cake,
+    path: "/utilities/age",
+    category: "date",
   },
 ];
